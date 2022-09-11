@@ -1,0 +1,23 @@
+*{
+    background-color:ivory;
+}
+
+/* table formatting */
+table{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lavender;
+    width: 80vw;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+th{
+    color: black;
+}
+td{
+    text-align: center;
+}
+.scoreField{
+    border: 1px solid black;
+}
+/* End of Table Formatting */
