@@ -13,11 +13,35 @@ table{
 }
 th{
     color: black;
+    background-color: lightgrey;
 }
 td{
     text-align: center;
+    background-color: white;
 }
 .scoreField{
     border: 1px solid black;
 }
 /* End of Table Formatting */
+
+
+/* Button formatting */
+.btnContainer{
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    margin-left: auto;
+    margin-right: auto;
+}
+#clear {
+    background-color: lightcoral;
+    margin-right: 20px;
+}
+
+#submit {
+    background-color: lightgreen;
+}
+
+/* end of button formatting */
