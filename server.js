@@ -16,7 +16,7 @@ const db = mysql.createConnection(
       // Your MySQL username,
       user: 'root',
       // Your MySQL password
-      password: 'Mossy12!@',
+      password: '',
       database: ''
     },
     console.log('Connected to the scorekeeper database.')
