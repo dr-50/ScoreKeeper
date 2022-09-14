@@ -10,3 +10,7 @@ function clearTable(){
 function submitTable(){
     console.log("Submit button clicked")
 }
+
+function validChar(){
+    
+}
