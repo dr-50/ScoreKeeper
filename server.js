@@ -1,7 +1,8 @@
 const express = require('express');
-const routes = require('./controllers');
+//const routes = require('./controllers');
 const sequelize = require('./config/connection');
 const mysql = require('mysql2');
+
 
 
 const PORT = process.env.PORT || 3001;
@@ -13,17 +14,17 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // Connect to database
-//const db = mysql.createConnection(
-    //{
-     // host: 'localhost',
+const db = mysql.createConnection(
+    {
+      host: 'localhost',
       // Your MySQL username,
-      //user: '',
+      user: '',
       // Your MySQL password
-      //password: '',
-      //database: ''
-    //},
-    //console.log('Connected to the scorekeeper database.')
-  //);
+      password: '',
+      database: 'scorekeeper'
+    },
+    console.log('Connected to the scorekeeper database.')
+  );
 
 // Select all from score table
 //db.query('SELECT * FROM scores', (err, rows) => {
